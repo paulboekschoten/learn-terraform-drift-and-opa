@@ -1,5 +1,7 @@
 terraform {
   cloud {
+  organization = "paulboekschoten-business"
+
     workspaces {
       name = "learn-terraform-drift-and-opa"
     }
